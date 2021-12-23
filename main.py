@@ -20,3 +20,11 @@ def print_my_name(my_name):
     print(f'제 이름은 {my_name}입니다.')
     
 print_my_name('전은형')
+
+
+# 파라미터가 없는 함수 예시
+def get_my_age():
+    return 31
+
+age = get_my_age()
+print(age)
