@@ -103,4 +103,4 @@ print(user_info['birth_year'])
 book1 = Book()
 
 book1.set_data('드래곤볼', 1000)
-print(f'{book1.title}의 대여료는 {book1.rent_fee}')
+print(f'{book1.book_title}의 대여료는 {book1.book_rent_fee}')
