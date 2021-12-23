@@ -62,3 +62,12 @@ sum_result2 = sum_many_numbers(4,5,6,7,8,9)
 
 print(sum_result1)
 print(sum_result2)
+
+
+# 여러개의 이름을 붙인 파라미터를 필요한만큼 받아서 출력
+def print_many_params(**kwargs):  # kw : keyword, args : arguments  - 키워드가 붙어있는 전달인자
+    print(kwargs)
+    # 임시 코드 => name이름표로 받아온 값을 출력하자
+    print(kwargs['name'])
+    
+print_many_params(name = '전은형', birthYear = 1991, status = '졸림')
